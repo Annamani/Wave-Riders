@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaveRiders</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section starts here -->
+    <header>
+        <!-- Include a navigation bar with the WaveRiders logo and links: About, Courses, Shop, Contact -->
+        <nav class="navbar-desktop">
+            <div class="logo">
+                <img class="logo_img " src="https://i.postimg.cc/MTXJyycS/logo.png" alt="WaveRiders Logo">
+            </div>
+            <div class="desktop_nav_links">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#"><button class="contact_btn">Contact</button></a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar-mobile" onclick="toggleMenu()">
+            <div class="logo">
+                <img class="logo_img " src="https://i.postimg.cc/MTXJyycS/logo.png" alt="WaveRiders Logo">
+            </div>
+            <div class="mobile_menu_icon">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="mobile_nav_links">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#"><button class="contact_btn">Contact</button></a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <!-- Header Section ends here -->
+    <!-- Main section starts here -->
+    <main>
+        <!-- Add a hero section with a large heading, subtitle, and a “Book your lesson” button -->
+        <section class="hero_section">
+            <!-- Display a background image of waves in the hero section -->
+            <div class="background_img">
+
+            </div>
+            <div class="intro_text">
+                <!-- Display a background image of waves in the hero section -->
+                <h2>WaveRiders squirrel surf School</h2>
+                <p>Ride the waves with WaveRiders!</p>
+            </div>
+            <button class="lesson_btn">Book your lesson</button>
+        </section>
+        <!-- Include a gallery section with two images of surfing squirrels -->
+        <section class="gallery_section">
+            <div class="surfing_images">
+                <img src="https://i.postimg.cc/4dnRzzK3/surfing1.jpg" alt="Surfing Image 1">
+                <img src="https://i.postimg.cc/QtVZppBt/surfing2.jpg" alt="Surfing Image 2">
+            </div>
+        </section>
+        <!-- Add an about section explaining why to choose WaveRiders, with three feature blocks (icon, title, description) -->
+        <section class="about_section">
+            <div class="about_text">
+                <h3>Why Choose WaveRiders</h3>
+                <p>At WaveRider, we're passionate about helping you ride the waves with confidence and joy.</p>
+            </div>
+            <div class="feature-container">
+                <div class="feature_block">
+                    <i class="fas fa-info-circle"></i>
+                    <h3>Certified bushy-tailed instructors</h3>
+                    <p>Our nutty instructions are fully certified in squirrel surf safety and bring a tree-load of
+                        experience to every lesson.
+                        They are not just acorn-catching pros on the waves-they're also friendly, patient and know how
+                        to make even
+                        the shyets squirrel feel at ease.You'll feel right at home whether you're a curious kit or a
+                        seasoned tree-hopper.</p>
+                    </p>
+                </div>
+                <div class="feature_block">
+                    <i class="fas fa-info-circle"></i>
+                    <h3>Tiny class sizes for top-notch nut-struction</h3>
+                    <p>We keep our classes small-just a pawful of squirrels at a time-so everystudent gets plenty of
+                        one-on-one attention.
+                        This way, your instructor can focus on your unique skills and help you scurry up the learning
+                        curve faster than you can
+                        say "wave-nut!".
+                    </p>
+                </div>
+                <div class="feature_block">
+                    <i class="fas fa-info-circle"></i>
+                    <h3>Flexible lesson times-Solo or with scurry</h3>
+                    <p>Whether you're an early riser or a sunset shredder, we've got flexible lesson times to match your
+                        tree-hopping schedule.
+                        Join a group class for some tail-slapping fun with fellow wave-riders or
+                        go for a private lesson if you prefer a quieter beach and full focus on your form.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials -->
+        <section class="testimonials_section">
+            <div class="testimonials_header">
+                <h3>What other squirrels say</h3>
+                <p>We have tons of customers that enjoyed their time with us!</p>
+            </div>
+            <div class="testimonial-container">
+                <div class="testimonial-content">
+                    <div class="testimonial-card">
+                        <h4>"Absolutely loved it!"</h4>
+                        <div class="testimonial-profile">
+                            <img src="https://i.postimg.cc/ydWCFFJV/testimonial1.jpg" alt="Testimonial 1">
+                            <div class="testimonial-info">
+                                <h5>Walnut willie</h5>
+                                <span>35, Botanist</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <h3>"Great time!"</h3>
+                        <div class="testimonial-profile">
+                            <img src="https://i.postimg.cc/W3tcMMDp/testimonial2.jpg" alt="Testimonial 2">
+                            <div class="testimonial-info">
+                                <h4>Hazelnut Hanne </h4>
+                                <span>27, Industrial climber</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <h3>"What a blast!"</h3>
+                        <div class="testimonial-profile">
+                            <img src="https://i.postimg.cc/1t41ppg3/testimonial3.jpg" alt="Testimonial 3">
+                            <div class="testimonial-info">
+                                <h4>Peanut Patty </h4>
+                                <span>24, Delivery rider</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Main section ends here -->
+    <!-- Footer section starts here -->
+    <footer class="footer_container">
+        <div class="footer_content">
+            <div class="footer_icons">
+                <div class="footer-logo">
+                    <img class="logo_img " src="https://i.postimg.cc/MTXJyycS/logo.png" alt="WaveRiders Logo">
+                </div>
+                <div class="social_media">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer_links">
+                <div class="about-link">
+                    <a href="#">About</a>
+                </div>
+                <div class="courses-link">
+                    <a href="#">Courses</a>
+                    <ul>
+                        <li><a href="#">Group</a></li>
+                        <li><a href="#">Private classes</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="shop-link">
+                    <a href="#">Shop</a>
+                    <ul>
+                        <li><a href="#">Surfboards</a></li>
+                        <li><a href="#">Wetsuits</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="map_navigation">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60999.91519922468!2d-1.9566694599636894!3d52.485883422080065!2m3!
+                1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870942d1b417173%3A0xca81fef0aeee7998!2sBirmingham%2C%20UK!5e0!3m2!1sen!2sdk!4v17564
+                64269430!5m2!1sen!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>&copy; 2025 WaveRiders. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Footer section ends here -->
+</body>
+<script src="script.js"></script>
+</html>
