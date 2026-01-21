@@ -20,4 +20,6 @@ This project was created to practice front‑end development basics and demonstr
 [Live Demo:](https://annamani.github.io/Wave-Riders/)
 
 Project screenshot:
+
+
 ![WaveRiders](https://github.com/user-attachments/assets/9ce005a5-458c-42e5-9a8e-a02a18fc578e)
