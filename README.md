@@ -17,6 +17,6 @@ HTML5,CSS,JavaScript
 
 This project was created to practice front‑end development basics and demonstrate understanding of responsive web design and interactive UI. It’s part of improving skills and real‑world project experience as a beginner web developer.
 
-Live Demo:
+[Live Demo:](https://annamani.github.io/Wave-Riders/)
 
 Project screenshot:
